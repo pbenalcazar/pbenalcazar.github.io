@@ -300,7 +300,7 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 
 scholar:
   last_name: [Benalcazar]
-  first_name: [Pablo, Pablo<sup>*</sup>, Pablo<sup>&#x0266F;</sup>]
+  first_name: [Pablo]
 
   style: apa
   locale: en
