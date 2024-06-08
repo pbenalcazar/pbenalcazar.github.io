@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-01-29 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our work that evaluates the spatial distribution of solar installations in Poland considering exclusion constraints has been accepted to [SDEWES2022]( https://www.paphos2022.sdewes.org/).
