@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>c 310,</p>
+    <p>Ofc 310,</p>
     <p>ul. J. Wybickiego 7A</p>
     <p>31-261 Kraków, Poland</p>
 

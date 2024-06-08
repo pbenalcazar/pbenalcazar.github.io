@@ -5,66 +5,71 @@ description: MEERI PAS, AGH Cyfronet
 img: assets/img/1-s2.0-S0306261923014083-gr1_lrg.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project aimed to bridge the gap between research and current solar PV project evaluation practices by facilitating the identification of suitable sites and the assessment of economic potential with the use of a GIS-based model that pays special consideration to the variation in the levelized cost of electricity due to labor-related costs like PV system installation, mechanical and electrical installation, and other expenditures.
 
+This work was carried out as part of the statutory research activity of the Mineral and Energy Economy Research Institute of the Polish Academy of Sciences. Additionally, it was supported in part by the project EUROCC “National Competence Centres in the framework of EuroHPC”, Grant Agreement 951732. The computations were conducted with the support of the PLGrid Infrastructure.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr1_lrg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr3_lrg.jpg" title="Global Horizontal Irradiation in Poland" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr1_lrg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr1_lrg.jpg" title="Concept" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The proposed GIS-based model can assist in mapping the distribution of eligible land for utility-scale solar systems while considering exclusion constraints, estimating PV capacity and generation potentials, as well as determining the average LCOE of utility-scale solar photovoltaic systems at a spatial resolution of 100 m. The GIS-based approach is demonstrated through the case study of Poland.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr2_lrg.jpg" title="Method" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The utilization of the SILICON model, which integrates twenty exclusion constraints, facilitates the computation and derivation of the land eligibility outcomes for utility-scale PV installations in Poland.
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr5_lrg.jpg" title="Method" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
+</div>
 
-{% endraw %}
+The LCOE values range from €0.043/kWh to €0.049/kWh, which are comparable to those found in previous studies. Out of the seventeen NUTS-2 regions that were analyzed, the lowest LCOE values are observed in seven regions: PL21, PL22, PL51, PL52, PL72, PL81, and PL82.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr9_lrg.jpg" title="Method" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1-s2.0-S0306261923014083-gr8_lrg.jpg" title="Method" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
+</div>
+
+
