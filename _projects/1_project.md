@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SILICON (SpatIo-temporaL scIentific ComputatiONs)
-description: MEERI PAS, AGH Cyfronet
+description: Mineral and Energy Economy Research Institute of the Polish Academy of Sciences and Academic Computer Centre Cyfronet AGH
 img: assets/img/1-s2.0-S0306261923014083-gr1_lrg.jpg
 importance: 1
 category: work
