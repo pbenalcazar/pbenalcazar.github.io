@@ -37,7 +37,7 @@ The proposed GIS-based model can assist in mapping the distribution of eligible 
     </div>
 </div>
 <div class="caption">
-    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
+    Read more about this figure in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
 </div>
 
 The utilization of the SILICON model, which integrates twenty exclusion constraints, facilitates the computation and derivation of the land eligibility outcomes for utility-scale PV installations in Poland.
@@ -69,7 +69,5 @@ The LCOE values range from €0.043/kWh to €0.049/kWh, which are comparable to
     </div>
 </div>
 <div class="caption">
-    Read more about this map in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
+    Read more about this figure in our <a href="https://doi.org/10.1016/j.apenergy.2023.122044"> paper</a>.
 </div>
-
-
