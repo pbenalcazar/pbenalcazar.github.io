@@ -21,6 +21,6 @@ social: true # includes social icons at the bottom of the page
 
 I am an Assistant Professor in the Division of Energy Economics at the [Mineral and Energy Economy Research Institute of the Polish Academy of Sciences](https://min-pan.krakow.pl/en/). I earned my Ph.D. in the discipline of Environmental Engineering, Mining and Energy from the [AGH University of Science and Technology](https://www.agh.edu.pl/en/university/).
 
-Currently, my research is centered around the design, operation and modeling of power systems integrated with energy storage technologies. Additionally, I have a strong interest in mathematical modeling and forecasting within the field of Energy Economics.
+Currently, my research is centered around the design, operation and modeling of energy systems. Additionally, I have a strong interest in mathematical modeling, geospatial technologies, forecasting, and Energy Economics.
 
 If you have any questions or are interested in collaborating, please don't hesitate to reach out to me via [email](mailto:benalcazar@min-pan.krakow.pl).
