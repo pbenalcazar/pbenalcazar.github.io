@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-I’m pleased to announce that I’ve been elevated to the grade of [IEEE Senior Member](https://ieee-collabratec.ieee.org/app/p/pbenalcazar?slv=true).
+I’m happy to share that I’ve been elevated to the grade of [IEEE Senior Member](https://ieee-collabratec.ieee.org/app/p/pbenalcazar?slv=true).
