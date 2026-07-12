@@ -1,22 +1,39 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
+<div class="post about-page">
+  <header class="post-header site-hero-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.first_name }} {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc hero-role">{{ page.subtitle }}</p>
   </header>
 
-  <article>
+  <article class="about-content">
+    <section class="hero-grid">
+      <div class="hero-copy">
+        {{ content }}
+
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button button-primary" href="{{ '/publications/' | relative_url }}">View publications</a>
+          <a class="button button-secondary" href="mailto:{{ site.email }}">Get in touch</a>
+        </div>
+
+        {% if page.social %}
+          <div class="social hero-social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+            {% if site.contact_note %}<div class="contact-note">{{ site.contact_note }}</div>{% endif %}
+          </div>
+        {% endif %}
+      </div>
+
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <aside class="profile hero-profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -35,42 +52,39 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-      </div>
+      </aside>
     {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
+    </section>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
+      <section class="about-section">
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
+      <section class="about-section">
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
+      </section>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <section class="about-section">
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
   </article>
 </div>

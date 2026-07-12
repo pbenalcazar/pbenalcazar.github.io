@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Mineral and Energy Economy Research Institute of the Polish Academy of Sciences</b>
+subtitle: <b>Mineral and Energy Economy Research Institute<br>Polish Academy of Sciences</b>
 
 profile:
   align: right
