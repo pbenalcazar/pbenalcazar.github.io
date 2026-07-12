@@ -228,6 +228,114 @@ body.fixed-top-nav {
   }
 }
 
+.research-map {
+  .research-map-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.7fr);
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 1.75rem;
+
+    h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 3vw, 2.45rem);
+      font-weight: 500;
+      letter-spacing: -0.035em;
+      line-height: 1.08;
+      text-transform: none;
+    }
+
+    > p {
+      margin: 0;
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  }
+
+  .section-kicker,
+  .research-card-label,
+  .research-methods > span {
+    margin: 0 0 0.55rem;
+    color: var(--global-theme-color);
+    font-size: 0.7rem;
+    font-weight: 750;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+  }
+}
+
+.research-grid {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.research-card {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr) minmax(12rem, 0.55fr);
+  gap: 1.25rem;
+  padding: 1.65rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  h3 {
+    margin: 0 0 0.55rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.3rem, 2vw, 1.65rem);
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    line-height: 1.12;
+  }
+
+  .research-card-main > p:not(.research-card-label) {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.64;
+  }
+
+  .research-index {
+    padding-top: 0.1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+  }
+
+  .research-card-tags {
+    align-self: end;
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.73rem;
+    line-height: 1.5;
+  }
+}
+
+.research-card-featured {
+  .research-index,
+  .research-card-label {
+    color: var(--global-theme-color);
+  }
+}
+
+.research-methods {
+  display: flex;
+  gap: 1.2rem;
+  align-items: baseline;
+  margin-top: 1rem;
+  padding: 1rem 0.2rem 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  > span {
+    flex: 0 0 auto;
+  }
+
+  p {
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+}
+
 .hero-social.social {
   margin-top: auto;
   padding-top: 1.5rem;
@@ -303,6 +411,23 @@ footer.sticky-bottom {
 
   .hero-grid {
     grid-template-columns: 1fr;
+  }
+
+  .research-map .research-map-header,
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card {
+    grid-template-columns: 2.5rem 1fr;
+
+    .research-card-tags {
+      grid-column: 2;
+    }
+  }
+
+  .research-methods {
+    display: block;
   }
 
   .hero-profile.profile {
