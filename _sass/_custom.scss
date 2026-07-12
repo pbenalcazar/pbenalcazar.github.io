@@ -7,8 +7,8 @@
   --global-bg-color: #fbfcfa;
   --global-text-color: #1b2523;
   --global-text-color-light: #66716d;
-  --global-theme-color: #31465a;
-  --global-hover-color: #243748;
+  --global-theme-color: #1f5f8b;
+  --global-hover-color: #17486a;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #fbfcfa;
   --global-footer-text-color: #66716d;
@@ -18,17 +18,17 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #17211f;
-  --global-text-color: #edf3ef;
-  --global-text-color-light: #aebbb5;
-  --global-theme-color: #a9c4df;
-  --global-hover-color: #c9dbeb;
-  --global-hover-text-color: #17211f;
-  --global-footer-bg-color: #17211f;
-  --global-footer-text-color: #aebbb5;
-  --global-footer-link-color: #a9c4df;
-  --global-divider-color: #34433f;
-  --global-card-bg-color: #1e2b28;
+  --global-bg-color: #111820;
+  --global-text-color: #f0f4f8;
+  --global-text-color-light: #a5b1bf;
+  --global-theme-color: #84b7e5;
+  --global-hover-color: #b0d2f0;
+  --global-hover-text-color: #111820;
+  --global-footer-bg-color: #111820;
+  --global-footer-text-color: #a5b1bf;
+  --global-footer-link-color: #84b7e5;
+  --global-divider-color: #2d3a49;
+  --global-card-bg-color: #1a2430;
 }
 
 body {
@@ -36,6 +36,16 @@ body {
   font-size: 1rem;
   line-height: 1.72;
   letter-spacing: -0.01em;
+}
+
+a,
+table.table a {
+  font-weight: 560;
+  text-underline-offset: 0.16em;
+
+  &:hover {
+    text-decoration-thickness: 0.1em;
+  }
 }
 
 body.fixed-top-nav {
@@ -230,6 +240,36 @@ body.fixed-top-nav {
       margin-right: 0.85rem;
     }
   }
+}
+
+.visitor-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  margin-top: 1.35rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
+
+  strong {
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 750;
+    letter-spacing: -0.02em;
+  }
+
+  .visitor-stat-label {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+.visitor-stat-bottom {
+  margin-top: 3rem;
 }
 
 footer.sticky-bottom {

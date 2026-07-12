@@ -86,5 +86,21 @@ layout: default
       </section>
     {% endif %}
 
+    <div class="visitor-stat visitor-stat-bottom" id="visitor-stat">
+      <span class="visitor-stat-label">This site</span>
+      <strong id="visitor-count" aria-live="polite">—</strong>
+      <span class="visitor-stat-unit">page views</span>
+    </div>
+    <script>
+      fetch('https://pbenalcazar.goatcounter.com/counter/TOTAL.json')
+        .then((response) => (response.ok ? response.json() : Promise.reject(response)))
+        .then((data) => {
+          document.getElementById('visitor-count').textContent = data.count || '—';
+        })
+        .catch(() => {
+          document.getElementById('visitor-stat').hidden = true;
+        });
+    </script>
+
   </article>
 </div>
