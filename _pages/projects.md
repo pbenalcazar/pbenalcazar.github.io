@@ -5,6 +5,17 @@ permalink: /projects/
 description: Research projects.
 nav: true
 nav_order: 3
+dropdown: true
+children:
+  - title: all projects
+    permalink: /projects/
+  - title: divider
+  - title: CoEnerBuild
+    permalink: /projects/coenerbuild/
+  - title: Heat4Future
+    permalink: /projects/heat4future/
+  - title: SILICON
+    permalink: /projects/1_project/
 display_categories: [work]
 horizontal: false
 ---
