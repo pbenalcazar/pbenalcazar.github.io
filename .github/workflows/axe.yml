@@ -34,7 +34,7 @@ jobs:
       - name: Install ImageMagick 🖼️
         run: |
           sudo apt-get update
-          sudo apt-get install --yes imagemagick
+          sudo apt-get install --yes --no-install-recommends imagemagick
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
